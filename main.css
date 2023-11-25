@@ -38,3 +38,15 @@
 .col-md {
     flex: 1 1 auto;
 }
+#one {
+    flex: 2 0 auto;
+    height: 40px
+}
+#two {
+    flex: auto;
+    height: auto;
+}
+#three {
+    flex: 4 1 auto;
+    height: 200px;
+}

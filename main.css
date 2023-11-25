@@ -24,4 +24,7 @@
 #item3 {
     grid-area: footer;
     height: 200px;
+}.container {
+    display: flexbox;
+    flex-direction: column;
 }

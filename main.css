@@ -15,10 +15,13 @@
 }
 #item1 {
     grid-area: header;
+    height: 50px;
 }
 #item2 {
     grid-area: main;
+    height: auto;
 }
 #item3 {
     grid-area: footer;
+    height: 20px;
 }

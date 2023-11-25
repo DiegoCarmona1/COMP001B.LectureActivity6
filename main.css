@@ -24,7 +24,17 @@
 #item3 {
     grid-area: footer;
     height: 200px;
-}.container {
+}
+.container {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+    background-color:brown;
+}
+.container > div {
+    background-color: aliceblue;
+    border: 2px solid orange;
+}
+.col-md {
+    flex: 1 1 auto;
 }

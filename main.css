@@ -25,6 +25,6 @@
     grid-area: footer;
     height: 200px;
 }.container {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
 }

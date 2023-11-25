@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header''main''footer';
+}
+#item1 {
+    grid-area: 200px;
+}
+#item2 {
+    grid-area: auto;
+}
+#item3 {
+    grid-area: 300px;
+}

@@ -2,6 +2,9 @@
     display: grid;
     grid-template-areas: 
     'header header main main footer footer';
+    gap: 15px;
+    background-color: aqua;
+    padding: 5px;
 }
 #item1 {
     grid-area: header;

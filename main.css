@@ -1,7 +1,9 @@
 .grid-container {
     display: grid;
     grid-template-areas: 
-    'header header main main footer footer';
+    'header header header'
+    'main main main'
+    'footer footer footer';
     gap: 15px;
     background-color: aqua;
     padding: 5px;
